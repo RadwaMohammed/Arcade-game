@@ -2,7 +2,7 @@
 
 In this game you have a Player and Enemies (bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
 
-You will have 3 lives, once you collide with enimies you will lose one live and begin again from the starting point.
+To play the game click [here](https://radwamohammed.github.io/Arcade-game/).
 
 ## Instructions
 
