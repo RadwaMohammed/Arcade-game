@@ -122,16 +122,15 @@ document.addEventListener('keyup', function(e) {
 });
 
 // Create New player object
-const player = new Player();
-
-// Create bug enemys
-const bug1 = new Enemy(-101, (83 * 2), 300);
-const bug2 = new Enemy(-101, 83, 130);
-const bug3 = new Enemy((-101 * 3), 83, 130);
-const bug4 = new Enemy(-101, 0, 350);
-const bug5 = new Enemy((-101 * 4), 0, 350);
+const player = new Player(),
+      // Create bug enemys
+      bug1 = new Enemy(-101, (83 * 2), 300),
+      bug2 = new Enemy(-101, 83, 130),
+      bug3 = new Enemy((-101 * 3), 83, 130),
+      bug4 = new Enemy(-101, 0, 350),
+      bug5 = new Enemy((-101 * 4), 0, 350),
 // Init allEnemies array hold all enemy bugs
-const allEnemies = [];
+      allEnemies = [];
 // Push new enemy object into allEnemies array
 allEnemies.push(bug1, bug2, bug3, bug4, bug5);
 
